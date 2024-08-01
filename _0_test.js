@@ -3,6 +3,6 @@
 "use strict" // treat all JS code as newer versiion
 
 
-// alert("Hello GG") // will not work in the Node enviroment in the local
+// alert("Hello GG") // will not work here on the local node environment
 
 
