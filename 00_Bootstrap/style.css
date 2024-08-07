@@ -1,86 +1,25 @@
 
+
 body {
-    font-family: Arial, sans-serif;
+    background-color: #212121;
+    color: #fff;
+    font-size: 16px;
 }
 
-.tabs {
+#navbar-air-logo {
+    margin: 0;
+    padding: 0;
+    margin-left: 1rem;
+}
+#navbar-air-logo img{
+    width: 3rem;
+    background-color: #fff;
+    min-width: 4rem;
+    display: flow;
+    padding: 2px;
+    padding-bottom: 10px;
+    border-radius: 0 0 10px 10px;
+    
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
+    
 }
-
-.tab-button {
-    padding: 10px 20px;
-    cursor: pointer;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-}
-
-.tab-button:hover {
-    background-color: #ddd;
-}
-
-.content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    border: 1px solid #ccc;
-}
-
-.scene {
-    display: none;
-}
-
-.scene.active {
-    display: block;
-}
-
-  
-  body::before {
-    content: "XS";
-    color: red;
-    font-size: 2rem;
-    font-weight: bold;
-    position: fixed;
-    top: 0;
-    right: 0;
-  }
-  
-  /* This box class is purely used for explaining how the bootstrap grid system works. */
-  .box {
-    background-color: lightblue;
-    border: 1px solid blue;
-    min-height: 50px;
-    font-size: 2rem;
-  }
-  
-  @media (min-width: 576px) {
-    body::before {
-      content: "SM";
-    }
-  }
-  
-  @media (min-width: 768px) {
-    body::before {
-      content: "MD";
-    }
-  }
-  
-  @media (min-width: 992px) {
-    body::before {
-      content: "LG";
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    body::before {
-      content: "XL";
-    }
-  }
-  
-  @media (min-width: 1400px) {
-    body::before {
-      content: "XXL";
-    }
-  }
